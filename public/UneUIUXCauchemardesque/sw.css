@@ -1,0 +1,44 @@
+body {
+    background-color: #1e1e1e;
+    color: #ff00ff;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.sommaire, .pt1, .pt2, .pt3, .sources, .credit {
+    color: #ffea00;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: line-through;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #990000;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #ff0000;
+}
+
+.credit {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.credit li {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px #000;
+}

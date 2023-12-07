@@ -10,6 +10,16 @@ p {color: rgb(0, 0, 0);}
   color:#35CF58 ;
 }
 
+.bouton-container {
+  display: flex;
+  align-items: center; 
+}
+
+.bouton-description {
+  margin-left: 10px; 
+  color: #000000; 
+}
+
 html, body {
   margin: 1;
   padding: 1;
@@ -42,3 +52,4 @@ transform: translateY(-0.3em);
 color: #83e81e ;
 border-image-source: linear-gradient(to left,#35CF58, rgb(115, 235, 22));
 }
+  

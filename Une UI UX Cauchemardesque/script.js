@@ -7,6 +7,7 @@ function changeTheme() {
         'theme1.css', // Ajoute d'autres thèmes au besoin
         'theme2.css',
         'theme3.css',
+        'theme4.css',
     ];
 
     // Choix aléatoire d'un thème

@@ -11,4 +11,53 @@ body {
     rgb(255, 138, 212) 80%, 
     rgba(255, 178, 186, 1) 90%, 
     rgba(255, 179, 186, 1) 100%);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #333; /* Couleur de base pour le texte */
+}
+
+h2, h3 {
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+}
+
+h2 {
+    color: #007BFF; /* Couleur spécifique pour les titres h2 */
+}
+
+h3 {
+    color: #28a745; /* Couleur spécifique pour les titres h3 */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px; /* Ajout de marge en bas des paragraphes */
+}
+
+b {
+    color: #dc3545; /* Couleur spécifique pour le texte en gras */
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px; /* Ajout de marge en haut du pied de page */
+}
+
+ul {
+    list-style: none; /* Suppression des puces de la liste */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px; /* Espacement entre les éléments de la liste */
 }

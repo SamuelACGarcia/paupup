@@ -1,10 +1,4 @@
-html {
-    cursor: url("img/licorn1.png"), auto;
-}
 
-.hands {
-    cursor: url("img/licornclick.png"), auto;
-}
 
 body {
     background: linear-gradient(90deg, 
@@ -25,6 +19,7 @@ body {
     height: 100vh;
     color: #333; /* Couleur de base pour le texte */
     z-index: -2;
+    cursor: url("img/licorn1.png"), auto;
 }
 
 h2, h3 {
@@ -93,4 +88,12 @@ li:hover {
     height: 100px;
     background-color: #007BFF;
     transition: transform 0.2s;
+}
+
+.trail {
+    position: absolute;
+    width: 10px; /* Ajuste la taille des éléments de trail selon tes préférences */
+    height: 10px;
+    border-radius: 50%; /* Rend les éléments de trail circulaires */
+    pointer-events: none; /* Ignore les événements de la souris sur les éléments de trail */
 }

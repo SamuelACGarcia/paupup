@@ -2,6 +2,15 @@ const konamiCode = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft",
 
 let sequence = [];
 
+const image = document.querySelector(".ma-classe");
+
+image.style.visibility = "hidden";
+
+
+
+
+
+
 function detectKonamiCode(event) {
     const key = event.key;
         

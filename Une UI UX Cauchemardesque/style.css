@@ -1,4 +1,14 @@
 body {
-    background: repeating-linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red 300px);
-    background-repeat: repeat-y;
+    background: linear-gradient(90deg, 
+    rgb(255, 139, 151) 0%, 
+    rgb(255, 171, 119) 10%, 
+    rgb(255, 235, 122) 20%, 
+    rgb(166, 255, 141) 30%, 
+    rgb(145, 254, 245) 40%, 
+    rgb(121, 204, 255) 50%, 
+    rgb(149, 167, 255) 60%, 
+    rgb(221, 135, 255) 70%, 
+    rgb(255, 138, 212) 80%, 
+    rgba(255, 178, 186, 1) 90%, 
+    rgba(255, 179, 186, 1) 100%);
 }

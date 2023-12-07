@@ -27,7 +27,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   }
 
   def defi3() = Action.async { implicit request: Request[AnyContent] =>
-    val file = new java.io.File("ThisisbetterthanHadouken/defi3.html")
+    val file = new java.io.File("public/ThisisbetterthanHadouken/defi3.html")
     val source = scala.io.Source.fromFile(file)
     val content = source.mkString
     source.close()

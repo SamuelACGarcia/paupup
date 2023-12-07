@@ -4,20 +4,50 @@ h2 {color: rgb(0, 0, 0);}
 h3 {color: rgb(0, 0, 0);}
 p {color: rgb(0, 0, 0);}
 
+/* Styles pour la page */
+.page-container {
+  display: flex;
+}
+
 .bouton a {
   text-decoration: none;
   font-weight: bold;
   color:#35CF58 ;
 }
 
-.bouton-container {
+.boutons-container {
   display: flex;
-  align-items: center; 
+  flex: 2;
+  flex-direction: column;
 }
 
-.bouton-description {
-  margin-left: 10px; 
-  color: #000000; 
+/* Styles pour les boutons */
+.defis-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px; 
+}
+
+/* Styles pour les descriptions */
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  display: none;
+  padding: 10px;
+  background-color: rgba(59, 108, 98);
+  color: white;
+}
+
+/* Affichage de la description lorsqu'un bouton est "coché" */
+:target {
+  display: none;
+}
+
+:target.description {
+  display: block;
 }
 
 html, body {
@@ -27,9 +57,10 @@ html, body {
 }
 
 .bouton {
+  flex: 1;
   background: none;
   padding: 10px;
-  width: 45px;
+  width: 60px;
   outline: none;
   border-radius: 5px;
   border: 10px solid;

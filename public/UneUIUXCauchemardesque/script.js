@@ -13,6 +13,7 @@ function changeTheme() {
     // Choix aléatoire d'un thème
     const randomTheme = themes[Math.floor(Math.random() * themes.length)];
     let isMouseDown = false;
+    const gifContainer = document.getElementById("gifContainer");
 
     if (randomTheme == 'style.css') {
         document.addEventListener("mousedown", changeCursor);
@@ -21,41 +22,30 @@ function changeTheme() {
         function changeCursor() {
             console.log("mousedown");
             isMouseDown = true;
+            gifContainer.classList.remove("hidden");
             document.body.style.cursor = "url(\"img/licornclick.png\"), auto"; /* Image du curseur lors du mousedown */
-            createTrail();
+            document.addEventListener("mousemove", moveGif);
+
 
         }
         
         function restoreCursor() {
             console.log("mouseup");
             isMouseDown = false;
+            gifContainer.classList.add("hidden");
             document.body.style.cursor = "url(\"img/licorn1.png\"), auto"; /* Restaure le curseur par défaut après le mouseup */
+            document.removeEventListener("mousemove", moveGif);
         }
     }
 
-    document.addEventListener("mousemove", (event) => {
+    function moveGif(event) {
         if (isMouseDown) {
-            updateTrail(event.clientX, event.clientY);
+            const x = event.clientX - 35 + window.scrollX;
+            const y = event.clientY - 155 + window.scrollY;
+            gifContainer.style.rotate = "-45deg";
+            gifContainer.style.left = x + "px";
+            gifContainer.style.top = y + "px";
         }
-    });
-
-    function createTrail() {
-        const trailElement = document.createElement("div");
-        trailElement.classList.add("trail");
-        document.body.appendChild(trailElement);
-    }
-    
-    function updateTrail(x, y) {
-        const trailElements = document.querySelectorAll(".trail");
-    
-        trailElements.forEach((trailElement, index) => {
-            const angle = (index / trailElements.length) * 360; /* Calcule l'angle pour créer un effet arc-en-ciel */
-            const color = `hsl(${angle}, 100%, 50%)`; /* Utilise la notation HSL pour définir la couleur en fonction de l'angle */
-    
-            trailElement.style.backgroundColor = color;
-            trailElement.style.left = `${x}px`;
-            trailElement.style.top = `${y}px`;
-        });
     }
     
 

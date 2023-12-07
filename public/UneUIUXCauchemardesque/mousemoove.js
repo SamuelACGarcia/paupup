@@ -3,7 +3,7 @@ document.addEventListener("mousemove", moveElement);
 function moveElement(event) {
     const element = document.getElementById("infiniteMovement");
     const mouseX = event.clientX;
-    const mouseY = event.clientY;
+    const mouseY = event.clientY + window.scrollY;
     const windowWidth = window.innerWidth;
     const windowHeight = window.innerHeight;
 

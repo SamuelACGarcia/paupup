@@ -1,3 +1,5 @@
+
+
 body {
     background: linear-gradient(90deg, 
     rgb(255, 139, 151) 0%, 
@@ -16,6 +18,8 @@ body {
     padding: 0;
     height: 100vh;
     color: #333; /* Couleur de base pour le texte */
+    z-index: -2;
+    cursor: url("img/licorn1.png"), auto;
 }
 
 h2, h3 {
@@ -50,14 +54,46 @@ a:hover {
 }
 
 footer {
-    margin-top: 20px; /* Ajout de marge en haut du pied de page */
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: right;
 }
 
 ul {
-    list-style: none; /* Suppression des puces de la liste */
+    list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 li {
-    margin-bottom: 5px; /* Espacement entre les éléments de la liste */
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #6c757d;
+    text-align: center;
+    width: 100%;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+#infiniteMovement {
+    z-index: -1;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #007BFF;
+    transition: transform 0.2s;
+}
+
+.trail {
+    position: absolute;
+    width: 10px; /* Ajuste la taille des éléments de trail selon tes préférences */
+    height: 10px;
+    border-radius: 50%; /* Rend les éléments de trail circulaires */
+    pointer-events: none; /* Ignore les événements de la souris sur les éléments de trail */
 }

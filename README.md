@@ -28,3 +28,10 @@ api video
 ``sbt run``
 
 L'application écoute sur le port 9000
+
+
+
+## Commentaires
+
+
+Prog fonctionelle: utilisation du langage Scala avec le framework Play

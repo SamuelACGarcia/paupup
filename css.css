@@ -10,6 +10,16 @@ p {color: rgb(0, 0, 0);}
   color:#35CF58 ;
 }
 
+.bouton-container {
+  display: flex;
+  align-items: center; 
+}
+
+.bouton-description {
+  margin-left: 10px; 
+  color: #fff; 
+}
+
 html, body {
   margin: 1;
   padding: 1;

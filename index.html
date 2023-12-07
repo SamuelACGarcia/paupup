@@ -9,50 +9,51 @@
 <body>
 
 <h1>Index</h1>
-  <div class="bouton-container">
-  <div class="bouton">
-    <a href="./Easter egg/defi1.html">Défi 1</a>
+
+<div class="page-container">
+  <div class="defis-container">
+    <button id="defi1" class="bouton" onclick="showDescription('desc1')">Défi 1</button>
+    <button id="defi2" class="bouton" onclick="showDescription('desc2')">Défi 2</button>
+    <button id="defi3" class="bouton" onclick="showDescription('desc3')">Défi 3</button>
+    <button id="defi4" class="bouton" onclick="showDescription('desc4')">Défi 4</button>
+    <button id="defi5" class="bouton" onclick="showDescription('desc5')">Défi 5</button>
   </div>
-  <div class="bouton-description">
-    Description du défi 1
+
+  <div class="description-container">
+    <div id="desc1" class="description">
+      Description du défi 1.  Un petit easter egg dans la page ! <a href="./Easter egg/defi1.html">Accéder au défi</a>
+    </div>
+    <div id="desc2" class="description">
+      Description du défi 2. Utilisation de la programmation fonctionnelle pour développer le site<a href="./Programmation fonctionnelle/defi2.html">Accéder au défi</a>
+    </div>
+    <div id="desc3" class="description">
+      Description du défi 3. Utilisation d'un <a href="https://fr.wikipedia.org/wiki/Code_Konami">code konami</a> sur la page web. Bonne chance pour le trouver !
+      <a href="./This is better than Hadouken !/defi3.html">Accéder au défi</a>
+    </div>
+    <div id="desc4" class="description">
+      Description du défi 4. Une interface cauchemardesque sur ce site (heureusement qu'on peut le désactiver)<a href="./Une UI UX Cauchemardesque/defi4.html">Accéder au défi</a>
+    </div>
+    <div id="desc5" class="description">
+      Description du défi 5. Où est Charlie ? (Trouvable en moins de 5 min)<a href="defi5.html">Accéder au défi</a>
+    </div>
   </div>
 </div>
 
-<div class="bouton-container">
-  <div class="bouton">
-    <a href="./Programmation fonctionnelle/defi2.html">Défi 2</a>
-  </div>
-  <div class="bouton-description">
-    Description du défi 2
-  </div>
-</div>
+<script>
+  function showDescription(descriptionId) {
+    // Masquer toutes les descriptions
+    var descriptions = document.querySelectorAll('.description');
+    descriptions.forEach(function(description) {
+      description.style.display = 'none';
+    });
 
-<div class="bouton-container">
-  <div class="bouton">
-    <a href="./This is better than Hadouken !/defi3.html">Défi 3</a>
-  </div>
-  <div class="bouton-description">
-    Description du défi 3
-  </div>
-</div>
-
-<div class="bouton-container">
-  <div class="bouton">
-    <a href="./Une UI UX Cauchemardesque/defi4.html">Défi 4</a>
-  </div>
-  <div class="bouton-description">
-    Description du défi 4
-  </div>
-</div>
-
-<div class="bouton-container">
-  <div class="bouton">
-    <a href="defi5.html">Défi 5</a>
-  </div>
-  <div class="bouton-description">
-    Description du défi 5
-  </div>
-</div>
+    // Afficher la description correspondante
+    var targetDescription = document.getElementById(descriptionId);
+    if (targetDescription) {
+      targetDescription.style.display = 'block';
+    }
+  }
+</script>
 
 <h2 class="pt1">Situations et tendances actuelles</h2>
 

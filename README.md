@@ -21,3 +21,10 @@ tetris
 code trooper
 yogi
 api video
+
+
+## Execution de l'application
+
+``sbt run``
+
+L'application écoute sur le port 9000

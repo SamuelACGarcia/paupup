@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const textCall = document.getElementById('textCall');
     textCall.style.visibility = 'hidden';
 
-    const textCall = document.getElementById('textCall');
-    textCall.style.visibility = 'hidden';
+    const pacman = document.getElementById('pacman');
+    //textCall.style.visibility = 'hidden';
 
     audio.load();
     audioColonel.load();
@@ -69,6 +69,8 @@ function detectKonamiCode(event) {
             }
 
             if(posGradius == 1200){
+                const pacman = document.getElementById('pacman');
+                pacman.setAttribute('src',  "./media/pacman2.png");
 
                 audio.play();
             }

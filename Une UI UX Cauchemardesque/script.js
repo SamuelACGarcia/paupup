@@ -6,10 +6,13 @@ function changeTheme() {
         'style.css', // Thème par défaut
         'theme1.css', // Ajoute d'autres thèmes au besoin
         'theme2.css',
+        'theme3.css',
     ];
 
     // Choix aléatoire d'un thème
     const randomTheme = themes[Math.floor(Math.random() * themes.length)];
+
+    console.log('Changement de thème : ' + randomTheme);
 
     // Application du thème choisi
     styleLink.href = randomTheme;

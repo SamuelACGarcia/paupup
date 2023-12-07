@@ -6,9 +6,7 @@
 # An example controller showing a sample home page
 GET     /                                           controllers.HomeController.index()
 
-GET     /ping                                       controllers.HomeController.ping()
-
-GET     /ThisisbetterthanHadouken/defi3.html        controllers.HomeController.defi3()
+GET     /public/ThisisbetterthanHadouken/defi3.html        controllers.HomeController.defi3()
 
 GET     /public/UneUIUXCauchemardesque/defi4.html   controllers.HomeController.defi4()
 

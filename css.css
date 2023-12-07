@@ -1,7 +1,26 @@
+/*couleurs*/
+h1 {color: rgb(0, 0, 0);}
+h2 {color: rgb(0, 0, 0);}
+h3 {color: rgb(0, 0, 0);}
+p {color: rgb(0, 0, 0);}
+
+.bouton a {
+  text-decoration: none;
+  font-weight: bold;
+  color:#35CF58 ;
+}
+
+html, body {
+  margin: 1;
+  padding: 1;
+  background-color: rgb(210, 243, 217);
+}
+
 .bouton {
   background: none;
   padding: 10px;
-  width: 60px;
+  width: 45px;
+  outline: none;
   border-radius: 5px;
   border: 10px solid;
   border-image-slice: 1;
@@ -13,13 +32,13 @@
   margin: 1em;
   cursor: pointer;
   color:#35CF58 ;
-  border-image-source: linear-gradient(to left,#35CF58 , rgb(150, 255, 80));
+  border-image-source: linear-gradient(to left,#3fb35a , #35CF58);
 }
 
 .bouton:hover,
 .bouton:focus {
 box-shadow: 0 0.5em 0.5em -0.4em;
 transform: translateY(-0.3em);
-color: #abfa5d ;
-border-image-source: linear-gradient(to left, rgb(150, 255, 30), rgb(202, 255, 103));
+color: #83e81e ;
+border-image-source: linear-gradient(to left,#35CF58, rgb(115, 235, 22));
 }

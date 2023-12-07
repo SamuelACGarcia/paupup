@@ -6,6 +6,8 @@ let state = "";
 let countCall = 0;
 
 const audio = new Audio('./media/Metal Gear Solid Codec Sound.mp3');
+const audioColonel = new Audio('./media/Colonel.mp3');
+const audioStart = new Audio('./media/start.mp3');
 
 document.addEventListener('DOMContentLoaded', () => {
     const gradiusImg = document.getElementById('gradius');
@@ -20,7 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const textCall = document.getElementById('textCall');
     textCall.style.visibility = 'hidden';
 
+    const textCall = document.getElementById('textCall');
+    textCall.style.visibility = 'hidden';
+
     audio.load();
+    audioColonel.load();
+    audioStart.load();
   });
 
 function detectKonamiCode(event) {
@@ -49,6 +56,8 @@ function detectKonamiCode(event) {
         gradiusImg.style.left = 0;
         gradiusImg.style.zIndex = 1;
 
+        audioStart.play();
+
         // Start the animation
         setInterval(function() {
             if(posGradius < 1600){
@@ -65,7 +74,6 @@ function detectKonamiCode(event) {
             }
             if(posGradius == 1600){
                 gradiusImg.style.display="none";
-                console.log("cacher")
 
 
                 state = "call";
@@ -130,11 +138,12 @@ function detectKonamiCode(event) {
                 textCall.style.color = "white";
                 textCall.style.cssText += `transform: translateX(300px) translateY(450px);`;
                 textCall.style.fontSize = '30px';
+                audioColonel.play();
             }
 
             if(state == "call" && countCall > 240){
                 const textCall = document.getElementById('textCall');
-                const str = "Le climat est en danger! Snake, tu dois le sauver!"
+                const str = "Le climat est en danger! Snake, il faut le sauver!"
                 nb = (countCall - 240) /5;
                 let text = "";
 

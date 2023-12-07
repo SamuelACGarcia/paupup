@@ -19,7 +19,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
    * a path of `/`.
    */
   def index() = Action.async { implicit request: Request[AnyContent] =>
-    val file = new java.io.File("index.html")
+    val file = new java.io.File("public/index.html")
     val source = scala.io.Source.fromFile(file)
     val content = source.mkString
     source.close()
@@ -42,8 +42,5 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     Future.successful(Ok(content).as(HTML))
   }
 
-  def ping() = Action { implicit request => 
-    Ok("Ah?");
-  }
 
 }

@@ -18,7 +18,7 @@ body {
     padding: 0;
     height: 100vh;
     color: #333; /* Couleur de base pour le texte */
-    z-index: -2;
+    z-index: -3;
     cursor: url("img/licorn1.png"), auto;
 }
 
@@ -82,18 +82,19 @@ li:hover {
 }
 
 #infiniteMovement {
-    z-index: -1;
+    z-index: -2;
     position: absolute;
     width: 100px;
     height: 100px;
     background-color: #007BFF;
     transition: transform 0.2s;
+    pointer-events: none;
+    overflow: hidden;
 }
 
-.trail {
+#gifContainer {
     position: absolute;
-    width: 10px; /* Ajuste la taille des éléments de trail selon tes préférences */
-    height: 10px;
-    border-radius: 50%; /* Rend les éléments de trail circulaires */
-    pointer-events: none; /* Ignore les événements de la souris sur les éléments de trail */
+    pointer-events: none; /* Permet au curseur de passer au-dessus du gif */
+    z-index: -1; /* Assure que le gif est au-dessus du reste du contenu */
+    overflow: hidden;
 }

@@ -4,7 +4,7 @@ FROM hseeberger/scala-sbt:17.0.1_1.6.2_3.1.1
 COPY . .
 
 # Expose the port the application will run on
-EXPOSE 9000
+EXPOSE 8080
 
 # Start the Play application
-CMD ["sbt", "run"]
+CMD sbt "run 8080"

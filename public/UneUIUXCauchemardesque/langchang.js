@@ -52,7 +52,21 @@ function changerLanguage(langue) {
 
             'onedegree': '1°C en plus, c\'est rien',
             'titre-partie2': 'Changement climatique futur, risques, et solutions sur le long terme',
-            'si': '<b>SI</b>, ça arrive bien trop vite !',
+            'si': `          <b>SI</b>, ça arrive bien trop vite ! Chaque degré Celsius de réchauffement a des implications significatives 
+            sur l'écosystème et la vie sur Terre. Bien que 1°C puisse sembler modeste à première vue, il est crucial de 
+            comprendre les conséquences de cette augmentation de température, en particulier dans le contexte du changement 
+            climatique actuel.
+            <br/>
+            Premièrement, même de petits changements de température peuvent avoir des effets disproportionnés sur les 
+            écosystèmes. Cela peut entraîner des modifications dans les schémas météorologiques, le niveau de la mer, 
+            les cycles de vie des espèces, et d'autres aspects clés de la biodiversité. Les écosystèmes n'ont souvent pas 
+            le temps nécessaire pour s'adapter rapidement à ces changements, ce qui peut entraîner la disparition de 
+            certaines espèces et perturber les équilibres écologiques.
+            <br/>
+            En outre, la perte de biodiversité a des implications directes pour l'humanité. Les écosystèmes fournissent des 
+            services écosystémiques vitaux tels que la pollinisation des cultures, la purification de l'eau, la régulation 
+            du climat, et bien d'autres. La disparition des espèces peut entraîner une diminution de ces services, 
+            compromettant ainsi la sécurité alimentaire, la qualité de l'eau et d'autres ressources essentielles.`,
             'energie': 'Les énergies renouvelables ne sont pas assez efficaces',
             'titre-partie3': 'Solutions sur le court terme',
             'cenest': 'Ce n\'est pas à nous d\'agir, c\'est aux autres de le faire',
@@ -94,7 +108,12 @@ function changerLanguage(langue) {
             <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">`,
             'onedegree': ' 1°C t\'u ohk garea ',
             'titre-partie2': 'Ohsorsi V\'enisa Xairjan, Rehnan, vil Jorhi- Calnera Ko\'ya',
-            'si': '<b>KA </b>, eti iniban su\'si cla rikey! ',
+            'si': ` Ka, eti aan iniban ceinireae cla rikey! Yei mlika Celsius bo dilnehan fic kehreci enk'eniga toe ji ecosystem vil dec kue Cae. Vyirnih 1°C sil xaivran sokae ho uru onlehilkan, eti ohk valri ar ksilan kub ji kanya bo cea y cankalisula vlahnes, kkateir ootay ji vursanhsa bo n'u v'enisa xairjan
+            <br/>
+            Uru, os si'hlirki xairjan ootay cankalisula toyid fic sehklokolteio ocanseyet kue ecosystems. Cea y toyid vorkunan ar xairjan ootay dasae sokar, sie geyar, kkata dec pen'a, vil a'an xa'ohe'a niz bo biodiversity. Ecosystems ick sahak fic ji canka gatad ar rikey a'cie ar ceu xairjan, vea toyid vorkunan ka seara sir bo va'ni kkata vil yihlaran ecological li'irtan. 
+            <br/>
+            T'u, ji talka bo biodiversity fic ilkoo enk'eniga toe funirau. Ecosystems tloyeban deyah ecosystem kalya cei veo reno'sa pollination, oola tulet, v'enisa rahur, vil su'sa a'an. Kkata ohserha toyid vorkunan ar a onceres ootay ceu kalya, vonklonek gusliga karkirjalau, oola ota vil a'an oharu norsa ro. 
+            `,
             'energie': 'Raroyeham\'i oralhea go ohsi oceni kuces ',
             'titre-partie3': 'Si\'ort- Calnera Ko\'ya',
             'cenest': 'Eti aan go xeed geo ar ahan, eti aan xeed a\'an ar nie eti ',

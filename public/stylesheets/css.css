@@ -1,4 +1,4 @@
-/*couleurs*/
+/* Couleurs */
 h1 {color: rgb(0, 0, 0);}
 h2 {color: rgb(0, 0, 0);}
 h3 {
@@ -57,7 +57,7 @@ p {color: rgb(0, 0, 0);}
   color: #35CF58; 
 }
 
-/* Affichage de la description lorsqu'un bouton est "coché" */
+/* Affichage de la description */
 :target {
   display: none;
 }

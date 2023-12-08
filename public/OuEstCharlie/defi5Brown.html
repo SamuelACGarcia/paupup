@@ -6,7 +6,11 @@
     <link href="../../public/stylesheets/css.css" rel="stylesheet">
     <script>
         function non(){
-            document.getElementById("Non").innerHTML = "Ah mais que fait-il ici ? Peut-être qu'il a encore perdu son cerf-volant et qu'il s'est coincé ?";
+            document.getElementById("Non").innerHTML = "Ah mais que fait-il ici ? Peut-être qu'il a encore perdu son cerf-volant et qu'il s'est coincé ? Allons voir ailleurs.";
+        }
+
+        function retour(){
+            window.history.go(-2);
         }
     </script>
 </head>
@@ -15,6 +19,7 @@
         <img src="img/brown_charlie.jpg">
         <h1 id="Non">Oh, Charlie Brown ! C'est lui que vous cherchiez ?</h1>
         <button onclick="non()">Non !</button>
+        <button onclick="retour()">Retour</button>
     </header>
     <footer>
     <p class="sources">Plus d'infos sur <a href="https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf">le rapport du GIEC</a></p>

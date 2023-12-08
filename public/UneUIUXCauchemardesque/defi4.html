@@ -13,8 +13,11 @@
     </head>
     <body>
 
-      <button onclick="changerLanguage('fr')">Français</button>
-      <button onclick="changerLanguage('tk')">English</button>
+      <select id="langSelector" onchange="changerLanguage(this.value)">
+        <option value="fr">Français</option>
+        <option value="tk">Twileki</option>
+    </select>
+
 
       <div id="gifContainer" class="hidden">
         <img src="img/rainbow.gif" alt="Gif" width="10%" height="10%" >

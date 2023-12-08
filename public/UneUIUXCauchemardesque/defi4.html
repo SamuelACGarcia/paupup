@@ -25,6 +25,7 @@
 
 
         <div id="infiniteMovement"></div>
+        <div id="clickTrail" class="click-trail"></div>
 
         <h2 class="sommaire" id="summary">Sommaire</h2>
         <ul>
@@ -233,6 +234,22 @@
           </ul>
         </footer>
 
-
+        <script>
+          document.addEventListener('click', function (event) {
+              console.log("sddsfsdf");
+              const clickTrail = document.getElementById('clickTrail');
+  
+              const trail = document.createElement('div');
+              trail.classList.add('click-trail-dot');
+              trail.style.left = (event.clientX - 5) + 'px';
+              trail.style.top = (event.clientY - 5) + 'px';
+  
+              clickTrail.appendChild(trail);
+  
+              setTimeout(() => {
+                  clickTrail.removeChild(trail);
+              }, 1000);
+          });
+      </script>
     </body>
 </html>

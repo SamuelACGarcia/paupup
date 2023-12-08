@@ -25,6 +25,10 @@ function changerLanguage(langue) {
             'ilsuffit': 'Il suffit de planter des plantes',
             'Attention': '<b>Attention</b> ! Pas n\'importe quelle plante n\'importe où, planter des fleurs exotiques, ça pollue aussi.',
             'plusdinfos': 'Plus d\'infos sur <a href="https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf">le rapport du GIEC</a>',
+            'co2': 'Le CO2 est le seul gaz à craindre',
+            'methane': '<b>Le Méthane</b> est sous-estimé mais participe grandement au réchauffement climatique. Il est principalement émis par l\'agriculture et la production des hydrocarbures. Bien que sa durée de vie dans l\'atmosphère soit plus faible, le GIEC estime son pouvoir contributeur entre 86 et 90 fois supérieur sur 20 ans.',
+            'peutpas': 'Ne peut-on pas éliminier les gaz à effet de serre de l\'atmosphère ?',
+            'simais': '<b>SI MAIS</b> le GIEC craint leurs effets secondaires dans sur la disponibilité et la qualité de l\'eau, sur la production alimentaire et sur la biodiversité. '
         },
         'tk': {
             'summary': 'rahuh',
@@ -51,6 +55,10 @@ function changerLanguage(langue) {
             'ilsuffit': ' Huhsi t\'irk va\'ni t\'irk ',
             'Attention': '<b> Ayalk! </b> Go huhsi ei t\'irk eo, t\'irk a\'e\'iry aola arnian si\'kulehan. .',
             'plusdinfos': ' T\'u ercolna kue <a href="https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf"> ji IPCC fiyao ro </a>',
+            'co2': 'CO2 ohk ji gue mid ar ceh ',
+            'methane': ' <b>Sasio ohk</b> cinhika kub kay vorslemuan mliry ar cusnory dilnehan. Eti ohk yap emitted tae calnu\'sue vil hydrocarbon tlokunk. Vyirnih jei lifespan ootay ji asnohcala ohk si\'ort, ji IPCC cinhika jei vorslemuan toc ersae 86 vil giyko canka mliry kukae bukas hie.',
+            'peutpas': ' Toyid gan go o\'nak dilnava gases or ji asnohcala?',
+            'simais': ' Ka, Kay ji IPCC ceh e\'an n\'irs ocanseyet kue ji behkoreme\'eki vil ota bo oola, kue gusliga tlokunk vil kue biodiversity.  '
         }
     };
 

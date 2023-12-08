@@ -13,9 +13,17 @@ Défis choisis :
 
 ## Execution de l'application en local
 
+Prérequis : 
+- Java 17
+- Scala
+
 ``sbt run``
 
 L'application écoute sur le port 9000
+
+## Execution en ligne
+
+Cliquez sur le [lien](https://paupup.azurewebsites.net)
 
 ## Commentaires
 

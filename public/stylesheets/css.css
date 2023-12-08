@@ -16,6 +16,8 @@ p {color: rgb(0, 0, 0);}
   display: flex;
 }
 
+
+
 .bouton a {
   text-decoration: none;
   font-weight: bold;
@@ -117,7 +119,7 @@ color: #35CF58 ;
 border-image-source: linear-gradient(to left,#35CF58, rgb(115, 235, 22));
 }
 
-img {
+.imgFixe {
   max-width: 100%; 
   border: 2px dashed #1c3b2b;
   display: block;

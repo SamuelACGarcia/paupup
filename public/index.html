@@ -55,13 +55,21 @@
   }
 </script>
 
-<h2 class="sommaire">Sommaire</h2>
-<ul>
-  <li><a href="#intro">Introduction</a></li>
-  <li><a href="#titre-partie1">Situations et tendances actuelles</a></li>
-  <li><a href="#titre-partie2">Changement climatique futur, risques, et solutions sur le long terme</a></li>
-  <li><a href="#titre-partie3">Solutions sur le court terme</a></li>
-</ul>
+<div class="center">
+  <h2 class="sommaire">Sommaire</h2>
+  <button class="boutonS"onclick="scrollToSection('intro')">Introduction</button></li>
+  <button class="boutonS" onclick="scrollToSection('titre-partie1')">Situations et tendances actuelles</button></li>
+    <button class="boutonS"onclick="scrollToSection('titre-partie2')">Changement climatique futur, risques, et solutions sur le long terme</button></li>
+    <button class="boutonS"onclick="scrollToSection('titre-partie3')">Solutions sur le court terme</button></li>
+  </div>
+  </div>
+  <script>
+    function scrollToSection(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+  </script>
 
 <h2 id="intro" class="pt0">Introduction</h2>
 

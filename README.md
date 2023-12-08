@@ -1,35 +1,21 @@
 # paupup
 
 Let's code like we never did during this night
-défis
 
-autogriff
+Nous sommes un groupes d'étudiants de pau ayant participé à la nuit de l'info. 
 
-viveris
-3ds konami code
-code trooper konami code
-redlab cauchemar
+Défis choisis :
+- Où est Charlie ? de capgemini 
+- Easter Egg de Code Trooper
+- This is better than Hadouken ! de 3DS OUTSCALE
+- Programmation fonctionnelle de Autogriff
+- Une UI/UX Cauchemardesque de REDLAB
 
-mipih accesibilité
-toolpad
-capge
-capcode noel
-airbus
-ubisoft
-wikifiesta
-tetris
-code trooper
-yogi
-api video
-
-
-## Execution de l'application
+## Execution de l'application en local
 
 ``sbt run``
 
 L'application écoute sur le port 9000
-
-
 
 ## Commentaires
 

@@ -1,8 +1,15 @@
 /*couleurs*/
 h1 {color: rgb(0, 0, 0);}
 h2 {color: rgb(0, 0, 0);}
-h3 {color: rgb(0, 0, 0);}
+h3 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 0 rgb(176, 199, 194);
+}
 p {color: rgb(0, 0, 0);}
+
+.center {
+  text-align: center;
+}
 
 /* Styles pour la page */
 .page-container {
@@ -82,11 +89,38 @@ html, body {
   border-image-source: linear-gradient(to left,#3fb35a , #35CF58);
 }
 
+.boutonS {
+  flex: 1;
+  background: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 4px;
+  font: inherit;
+  line-height: 1;
+  transition: 0.3s;
+  margin: 1em;
+  cursor: pointer;
+  color:#35CF58 ;
+  border-image-source: linear-gradient(to left,#3fb35a , #35CF58);
+}
+
 .bouton:hover,
-.bouton:focus {
+.boutonS:hover,
+.bouton:focus,
+.boutonS:focus {
 box-shadow: 0 0.5em 0.5em -0.4em;
 transform: translateY(-0.3em);
 color: #35CF58 ;
 border-image-source: linear-gradient(to left,#35CF58, rgb(115, 235, 22));
+}
+
+img {
+  max-width: 100%; 
+  border: 2px dashed #1c3b2b;
+  display: block;
+  margin: 0 auto; 
 }
   

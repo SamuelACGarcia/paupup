@@ -35,3 +35,4 @@ L'application écoute sur le port 9000
 
 
 Prog fonctionelle: utilisation du langage Scala avec le framework Play
+- Utilisation de sbt-assembly pour transformer l'application web en un .jar

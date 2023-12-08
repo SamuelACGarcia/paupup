@@ -2,6 +2,7 @@ body {
     background-color: #1e1e1e;
     color: #ff00ff;
     font-family: 'Comic Sans MS', cursive;
+    cursor: url("img/bluesaber.png"), auto;
 }
 
 .sommaire, .pt1, .pt2, .pt3, .sources, .credit {

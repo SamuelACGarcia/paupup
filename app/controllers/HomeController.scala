@@ -26,6 +26,10 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     Future.successful(Ok(content).as(HTML))
   }
 
+  def defi2 = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.defi("Défi Programmation Fonctionnelle"))
+  }
+
   def defi3() = Action.async { implicit request: Request[AnyContent] =>
     val file = new java.io.File("public/ThisisbetterthanHadouken/defi3.html")
     val source = scala.io.Source.fromFile(file)

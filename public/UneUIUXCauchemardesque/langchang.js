@@ -14,11 +14,42 @@ function changerLanguage(langue) {
             'cependant': 'Cependant, il est vrai que tout le monde n\'a pas le temps de lire un rapport avec autant de page. Nous allons donc vous aider à en comprendre les principes en déconstruisant les idées reçues sur l\'environnement.', 
             'titre-partie1': 'Situations et tendances actuelles',
             'changementclim': 'Le changement climatique, ce nest pas de notre faute',
-            'humanorigin': '<b>SI !</b> L\'humain est à l\'origine du changement climatique, surtout à cause de ses émissions de gaz à effet de serres.',
+            'humanorigin': `          <b>SI !</b> Les activités humaines ont une influence significative sur le changement climatique, principalement 
+            en raison des émissions de gaz à effet de serre. L'utilisation massive de combustibles fossiles, tels que le 
+            charbon, le pétrole et le gaz, libère d'importantes quantités de dioxyde de carbone (CO2) et d'autres gaz à 
+            effet de serre dans l'atmosphère. Ces gaz contribuent à garder la chaleur, provoquant un réchauffement de 
+            la planète.
+            <br/>
+            En outre, la déforestation, l'urbanisation croissante et d'autres activités humaines contribuent également aux 
+            changements climatiques. Les scientifiques du  GIEC et d'autres organisations ont accumulé des preuves solides 
+            montrant que l'activité humaine est le principal moteur du réchauffement climatique observé au cours des 
+            dernières décennies. Il est essentiel de prendre des mesures pour réduire les émissions de gaz à effet de serre 
+            et atténuer les impacts du changement climatique.`,
             'allscientist': 'Tous les scientifiques ne sont pas d\'accord',
-            'alors': '<b>ALORS</b>, effectivement, 3% des articles scientifiques parlant du changement climatique disent qu\'ils n\'existe pas, qu\'il ne fait pas de mal ou qu\'il n\'est pas dû aux actions de l\'humain. Outre leur nombre faible, plusieurs scientifiques ont cherché à étudier ces articles et ont systématiquement trouvé une erreur de raisonnement.',
+            'alors': `<b>ALORS</b>, effectivement, 3% des articles scientifiques parlant du changement climatique disent 
+            qu'il n'existe pas, qu'il ne fait pas de mal ou qu'il n'est pas dû aux actions de l'humain. Outre leur nombre 
+            fortement minoritaire, des analyses approfondies de ces articles dissidents ont souvent révélé des erreurs 
+            méthodologiques, des données mal interprétées ou des conclusions biaisées. Il est donc crucial de prendre en 
+            compte la prépondérance des preuves scientifiques plutôt que de se focaliser sur une minorité d'opinions 
+            dissidentes, surtout lorsque la crédibilité et la méthodologie de ces études sont remises en question par la 
+            communauté scientifique.`,
             'laterre': 'La terre a déjà atteint cette température avant',
-            'ouimais': '<b>OUI MAIS</b> jamais aussi vite. Comme on le voit sur le graphique ci-après, la température de la Terre a bien évolué mais cette évolution se faisait sur plusieurs milliers voire plusieurs millions d\'années. À la fin, on remarque que l\'augmentation est forte alors que nous étions dans une période où c\'était stable. <br> <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">',
+            'ouimais': `<b>OUI MAIS</b> jamais aussi vite. Il est vrai que les archives climatiques, telles que les carottes de glace 
+            et les sédiments océaniques, montrent que la Terre a connu des variations de température au fil des 
+            millénaires. Cependant, la caractéristique distinctive du changement climatique actuel est la rapidité avec 
+            laquelle la température de la planète augmente. 
+            <br/>
+            Comme on le voit sur le graphique ci-après, la température de la Terre a grandement 
+            varié Si l'on observe les données plus récentes, notamment depuis le début de l'ère industrielle au 
+            XVIII<sup>e</sup> siècle, la température de la Terre a augmenté de manière nettement plus rapide que lors des 
+            variations naturelles antérieures. Ce réchauffement rapide est directement lié aux activités humaines. 
+            <br/> 
+            La perturbation actuelle de l'équilibre climatique est donc caractérisée par une accélération significative 
+            des températures, ce qui pose des défis sérieux en termes d'adaptation et d'atténuation pour les écosystèmes 
+            et les sociétés humaines. Il est essentiel de comprendre cette accélération rapide pour prendre des mesures 
+            efficaces visant à limiter les impacts du changement climatique.
+            <br> <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">`,
+
             'onedegree': '1°C en plus, c\'est rien',
             'titre-partie2': 'Changement climatique futur, risques, et solutions sur le long terme',
             'si': '<b>SI</b>, ça arrive bien trop vite !',
@@ -53,11 +84,14 @@ function changerLanguage(langue) {
 
             'titre-partie1': 'N\'u Kesuitan vil Carkaru',
             'changementclim': ' V\'enisa xairjan ohk go gei vu\'ka ',
-            'humanorigin': '<b>KA! </b> Foh ohk milirsan v\'enisa xairjan, kkateir bayek ar e\'an dilnava mid emissions.',
+            'humanorigin': ` Ka! Foh anseyau fic a kehreci erc'u kue v'enisa xairjan, yap bayek ar dilnava mid emissions. Ji sihec uba bo o'cohisis llu'iga, cei veo vilma, i'o vil mid, junorslinsa ro kehreci kuh bo vilmora dioxide (CO2) vil a'an dilnava gases oo ji asnohcala. Ceu gases fa'kan cao dilnata ootay, ehan cusnory dilnehan. A'koo, deforestation, vlahnes urbanization vil a'an foh anseyau arnian vorslemuan ar v'enisa xairjan. Kteartu'a ho ji IPCC vil a'an ilhirez fic anihehan distombe oyekarsau cea foh anseyau ohk ji o'anark dasue bo cusnory dilnehan dey kukae ji ohsersata behet hilkana. Eti ohk oharu ar tlaran tlotahan ar si'k'eehan dilnava mid emissions vil sokalet ji clica bo v'enisa xairjan. `,
             'allscientist': 'Go vahs kteartu\'a vorhark ',
-            'alors': ' <b>CEI</b>, ba, 3% bo ktearti vonaltiga kue v\'enisa xairjan bee eti nilid go onbehsan, nilid koa si\'user, aan ohk go bayek ar foh tlotahan. Cinao e\'an l\'anan gunae, behet kteartu\'a fic kalwan ar jalran ceu vonaltiga vil fic urucolh cloyan a raboo olila. ',
+            'alors': `<b>Cei </b>, ba, 3% bo ktearti vonaltiga tilor yelniyo v'enisa xairjan bee cea eti nilid go onbehsan, cea eti nilid go ehan si'user aan cea eti ohk go bayek ar foh tlotahan. Ootay a'koo ar e'an clo si'hlirki gunae, ootay- tlocurko'is ari'eban bo ceu behekarsa vonaltiga fic ick si'nidan methodological olila, clikunan go bisuh aan tiyba vorn'uy. Eti ohk cei valri ar tlekard ji kukallaha bo ktearti oyekarsau t'eyo'o ir nonud kue a si'k'enu'sa bo si'norharsan ikeran, kkateir tenii ji vlakerkatoo vil methodology bo ceu jalran ohk banirka tae ji ktearti vonurunie.`,
             'laterre': 'The earth has reached this temperature before',
-            'ouimais': ' <b>KA, KAY</b> garei cea y rikey. Veo dey ootay ji graph kub, ji Cae aan cankalisula fic oyo\'u, kay cea y oyo\'utan iniban kukae behet ver aan os se\'eora bo hie. Ootay ji neo, gan dey cea ji vlahnes ohk rikey tenii gan ohk ootay a yayi\'al taleoka <br> <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">',
+            'ouimais': `Ka Kay garei cei rikey. Eti ohk ni'hi cea v'enisa rikolsan, cei veo dia ersalriga vil itaio nas, sorse cea Cae fic karsan cankalisula xairja kukae hilne'a. Cinao, ji behsert clivk bo n'u v'enisa xairjan ohk qaon rikey ji t'iraka aan cankalisula ohk vlahnes 
+            <br> 
+            Veo gan dey ootay ji graph kub, ji Cae aan cankalisula fic beyalhan mliry. Ko gan rehilkan t'u goc bisuh, kkateir arsian go jort ji onelan bo ji erkuhslei cankoni'nur ootay ji 18th parsvie, ji Cae aan cankalisula fic vlahnes tae kehreci nihsa ir buh arsian gisue xairja. Cea y rikey dilnehan ohk ilkoo yarae ar foh anseyau. Ji n'u ersallonm bo ji v'enisa li'irtan ohk cei vilinsaleban tae a kehreci antar bo cankalisula, vea sak kaleobi ar ootay calnera bo a'ciliy vil mitigation toe ecosystems vil foh koteasa. Vonklao cea y rikey antar ohk oharu ar tlaran ocansec sabue ar jeh ji clica bo v'enisa xairjan. Graph bo v'enisa cankalisula toe 5000 se'eora hie 
+            <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">`,
             'onedegree': ' 1°C t\'u ohk garea ',
             'titre-partie2': 'Ohsorsi V\'enisa Xairjan, Rehnan, vil Jorhi- Calnera Ko\'ya',
             'si': '<b>KA </b>, eti iniban su\'si cla rikey! ',

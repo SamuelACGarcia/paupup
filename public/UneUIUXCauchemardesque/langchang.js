@@ -48,7 +48,7 @@ function changerLanguage(langue) {
             des températures, ce qui pose des défis sérieux en termes d'adaptation et d'atténuation pour les écosystèmes 
             et les sociétés humaines. Il est essentiel de comprendre cette accélération rapide pour prendre des mesures 
             efficaces visant à limiter les impacts du changement climatique.
-            <br> <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">`,
+            <br/> <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">`,
 
             'onedegree': '1°C en plus, c\'est rien',
             'titre-partie2': 'Changement climatique futur, risques, et solutions sur le long terme',
@@ -67,20 +67,76 @@ function changerLanguage(langue) {
             services écosystémiques vitaux tels que la pollinisation des cultures, la purification de l'eau, la régulation 
             du climat, et bien d'autres. La disparition des espèces peut entraîner une diminution de ces services, 
             compromettant ainsi la sécurité alimentaire, la qualité de l'eau et d'autres ressources essentielles.`,
-            'energie': 'Les énergies renouvelables ne sont pas assez efficaces',
             'titre-partie3': 'Solutions sur le court terme',
             'cenest': 'Ce n\'est pas à nous d\'agir, c\'est aux autres de le faire',
             'sices': '<b>SI !</b> C\'est un effort collectif. Nous vous conseillons de faire le test pour connaître votre emprunte carbone. Il sensibilise sur ce qui impacte le plus.',
+            
+            
+            
+            
             'aquoi': 'A quoi ça sert si personne d\'autre ne fait l\'effort ?',
-            'dautres': '<b>D\'autres font l\'effort</b>, même si on n\'est toujours pas assez nombreux. De plus, tout le monde ne peut pas faire les mêmes efforts, par manque d\'argent en général. L\'État et les sociétés privées doivent aussi faire leur part !',
+            'dautres': `
+            <b>D'autres font l'effort</b>, même si Il est compréhensible de ressentir une certaine frustration lorsque 
+            l'on pense que nos actions individuelles peuvent sembler insignifiantes dans le grand schéma des choses.  
+            <br/>
+            Il est vrai que tout le monde ne peut pas faire les mêmes efforts en raison de diverses contraintes, y compris 
+            des limitations financières. C'est pourquoi les initiatives gouvernementales et les politiques des entreprises 
+            sont cruciales. Les gouvernements peuvent mettre en place des réglementations et des incitations pour 
+            encourager les pratiques durables, tandis que les entreprises peuvent adopter des politiques respectueuses de 
+            l'environnement et investir dans des technologies plus propres.
+            <br/>
+            Il est également essentiel de demander des changements systémiques et structurels à une échelle plus large. 
+            Les citoyens peuvent exercer une pression en demandant des politiques plus respectueuses du climat et en 
+            soutenant des entreprises qui adoptent des pratiques durables.
+            `,
             'lestechno': '<b>la technologie nous sauvera</b>',
             'ilsuffit': 'Il suffit de planter des plantes',
-            'Attention': '<b>Attention</b> ! Pas n\'importe quelle plante n\'importe où, planter des fleurs exotiques, ça pollue aussi.',
+            'Attention': `
+            <b>Attention !</b> Bien que planter des plantes et des arbres soit une action positive pour l'environnement, 
+            il est essentiel de le faire de manière réfléchie et adaptée à l'écosystème local. L'idée que planter 
+            n'importe quelle plante n'importe où est bénéfique est une simplification qui peut avoir des conséquences 
+            néfastes.
+            <br/>
+            Planter des espèces indigènes est particulièrement important. Les plantes indigènes sont celles qui ont évolué 
+            naturellement dans une région donnée et qui sont adaptées aux conditions locales. Elles jouent un rôle crucial 
+            dans l'équilibre écologique, fournissant des habitats, des sources de nourriture et contribuant à la 
+            biodiversité.
+            <br/>
+            Lorsque des espèces exotiques ou envahissantes sont introduites, elles peuvent perturber l'écosystème local, 
+            évinçant parfois les espèces indigènes et créant des déséquilibres écologiques. De plus, certaines plantes 
+            exotiques peuvent nécessiter une utilisation intensive de ressources telles que l'eau et les nutriments du sol, 
+            ce qui peut avoir des impacts négatifs sur l'environnement.
+            <br/>
+            Il est donc important de choisir des plantes adaptées au climat et indigènes à la région lors de la plantation. 
+            Les projets de reboisement et de restauration écologique doivent être guidés par des connaissances écologiques 
+            pour maximiser les avantages positifs pour l'environnement. 
+            `,
             'plusdinfos': 'Plus d\'infos sur <a href="https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf">le rapport du GIEC</a>',
             'co2': 'Le CO2 est le seul gaz à craindre',
-            'methane': '<b>Le Méthane</b> est sous-estimé mais participe grandement au réchauffement climatique. Il est principalement émis par l\'agriculture et la production des hydrocarbures. Bien que sa durée de vie dans l\'atmosphère soit plus faible, le GIEC estime son pouvoir contributeur entre 86 et 90 fois supérieur sur 20 ans.',
+            'methane': `  <b>NON, le méthane</b> et certains autres gaz à effet de serre jouent également un rôle significatif dans le 
+            réchauffement climatique. <br/>Le méthane est effectivement sous-estimé parfois, mais il est un contributeur 
+            majeur au réchauffement climatique. Il est émis principalement par des activités humaines telles que 
+            l'agriculture (élevage de bétail, rizières) et la production des hydrocarbures (exploitation pétrolière et 
+            gazière). Bien que la durée de vie du méthane soit plus courte que celle du CO2, il a un potentiel de 
+            réchauffement beaucoup plus élevé sur une période de temps plus courte. <br/> Le GIEC estime que, sur une 
+            période de 20 ans, le pouvoir de réchauffement global (PRG) du méthane est d'environ 86 à 90 fois supérieur à 
+            celui du CO2. Cela signifie que son impact sur le réchauffement climatique est beaucoup plus intense à court 
+            terme.`,
             'peutpas': 'Ne peut-on pas éliminier les gaz à effet de serre de l\'atmosphère ?',
-            'simais': '<b>SI MAIS</b> le GIEC craint leurs effets secondaires dans sur la disponibilité et la qualité de l\'eau, sur la production alimentaire et sur la biodiversité. '
+            'simais': `          
+            <b>SI MAIS</b> seulement en théorie. La mise en œuvre à grande échelle de telles technologies soulève des 
+            préoccupations sérieuses quant à leurs effets secondaires. Le GIEC (Groupe d'experts intergouvernemental sur 
+            l'évolution du climat) et d'autres experts craignent que certaines des méthodes proposées pour éliminer les 
+            gaz à effet de serre puissent avoir des conséquences indésirables sur l'environnement. <br/> Par exemple, 
+            certaines techniques d'élimination du dioxyde de carbone (CO2) de l'atmosphère, telles que la capture et le 
+            stockage du carbone (CSC), pourraient nécessiter d'importantes quantités d'eau, ce qui pourrait avoir des 
+            répercussions sur la disponibilité et la qualité de l'eau. De plus, l'utilisation massive de terres pour ces 
+            technologies pourrait compromettre la production alimentaire et la biodiversité. <br/> Les effets secondaires 
+            potentiels de l'élimination des gaz à effet de serre soulignent la nécessité d'adopter une approche équilibrée 
+            qui combine la réduction des émissions à la source avec des efforts d'adaptation et des solutions respectueuses 
+            de l'environnement. Il est crucial de prendre en compte les impacts potentiels de toute technologie visant à 
+            éliminer les gaz à effet de serre pour éviter de créer d'autres problèmes environnementaux tout en résolvant 
+            un aspect du changement climatique.`
         },
         'tk': {
             'summary': 'rahuh',
@@ -103,7 +159,7 @@ function changerLanguage(langue) {
             'alors': `<b>Cei </b>, ba, 3% bo ktearti vonaltiga tilor yelniyo v'enisa xairjan bee cea eti nilid go onbehsan, cea eti nilid go ehan si'user aan cea eti ohk go bayek ar foh tlotahan. Ootay a'koo ar e'an clo si'hlirki gunae, ootay- tlocurko'is ari'eban bo ceu behekarsa vonaltiga fic ick si'nidan methodological olila, clikunan go bisuh aan tiyba vorn'uy. Eti ohk cei valri ar tlekard ji kukallaha bo ktearti oyekarsau t'eyo'o ir nonud kue a si'k'enu'sa bo si'norharsan ikeran, kkateir tenii ji vlakerkatoo vil methodology bo ceu jalran ohk banirka tae ji ktearti vonurunie.`,
             'laterre': 'The earth has reached this temperature before',
             'ouimais': `Ka Kay garei cei rikey. Eti ohk ni'hi cea v'enisa rikolsan, cei veo dia ersalriga vil itaio nas, sorse cea Cae fic karsan cankalisula xairja kukae hilne'a. Cinao, ji behsert clivk bo n'u v'enisa xairjan ohk qaon rikey ji t'iraka aan cankalisula ohk vlahnes 
-            <br> 
+            <br/> 
             Veo gan dey ootay ji graph kub, ji Cae aan cankalisula fic beyalhan mliry. Ko gan rehilkan t'u goc bisuh, kkateir arsian go jort ji onelan bo ji erkuhslei cankoni'nur ootay ji 18th parsvie, ji Cae aan cankalisula fic vlahnes tae kehreci nihsa ir buh arsian gisue xairja. Cea y rikey dilnehan ohk ilkoo yarae ar foh anseyau. Ji n'u ersallonm bo ji v'enisa li'irtan ohk cei vilinsaleban tae a kehreci antar bo cankalisula, vea sak kaleobi ar ootay calnera bo a'ciliy vil mitigation toe ecosystems vil foh koteasa. Vonklao cea y rikey antar ohk oharu ar tlaran ocansec sabue ar jeh ji clica bo v'enisa xairjan. Graph bo v'enisa cankalisula toe 5000 se'eora hie 
             <img src="../index_media/Temperature_sur_la_Terre_depuis_500_Millions_dannees.png" width="80%" height="80%">`,
             'onedegree': ' 1°C t\'u ohk garea ',
@@ -114,20 +170,39 @@ function changerLanguage(langue) {
             <br/>
             T'u, ji talka bo biodiversity fic ilkoo enk'eniga toe funirau. Ecosystems tloyeban deyah ecosystem kalya cei veo reno'sa pollination, oola tulet, v'enisa rahur, vil su'sa a'an. Kkata ohserha toyid vorkunan ar a onceres ootay ceu kalya, vonklonek gusliga karkirjalau, oola ota vil a'an oharu norsa ro. 
             `,
-            'energie': 'Raroyeham\'i oralhea go ohsi oceni kuces ',
             'titre-partie3': 'Si\'ort- Calnera Ko\'ya',
             'cenest': 'Eti aan go xeed geo ar ahan, eti aan xeed a\'an ar nie eti ',
-            'sices': '<b> KA! </b> Eti aan a iki tao. Gan jiykan ro tlaran ji tloyan ar ktan dei vilmora teakhehra. Eti jac vorhtea bo qa clica ji t\'o. ',
+            'sices': ` <b> Ka! </b> Vatak v'enisa xairjan ohk ba a iki tao vil yei erkeyekui fic a ror ar juy. Eti ohk si'klic ar tarhan cea rahkorkau sarhoha tue bo a'an vonakeehk. Erkeyekui tlotahan, cumulatively kue a cusnory knyih, fic a kehreci clica kue dilnava mid emissions vil ji biyleham'atoo bo gei t'iraka
+            <br/>
+            Tae nie xairjan ootay gei deyhser, cei veo o'ank toe raroyeham'i oralhea norsa, rakunsirk deiry nseba, ubirk tum'eni clirhkolk, aan rakunsirk si'hlihes, yeu toyid vorslemuan ar rakunsirk dilnava mid emissions. cloklah. A'koo, jac vorhtea bo ceu o'c'u vil kumsaran sustainable initiatives ho ji vonurunie vil to'eses geyar ohk arnian mliyi ceinireae ar arsiyaret xairjan. 
+            <br/>
+            Gan vorhe'an dan ar tlaran ji tloyan ar cloyan onhso dei vilmora teakhehra. Eti jac vorhtea yelniyo qa clica ji t'o`,
             'aquoi': ' qa ohk ji turnk ko gareu a\'an nie a tao? ',
-            'dautres': ' <b>A\'an nie ji tao </b>, os ko gan ohk karnoyi go su\'si kuces. T\'an, go yeu toyid nie ji kih tao, bayek ar a laboo bo soo ootay xearalir. Ji bee vil tleyisi vonkiran sohsa arnian nie e\'an tilsa! ',
+            'dautres': `<b> A'an nie ji tao, </b> os vyirnih Eti aan vonklaram'i ar karsan va'ni nluhsla tenii gan tarhan cea gei erkeyekui tlotahan sil xaivran karhehrep ootay ji la'at tlovank bo ea. 
+            <br/>
+            Eti ohk ni'hi cea go yeu toyid nie ji kih tao bayek ar beyalhi bayet, ordic nerirti jenet. Cea y ohk qato rahehsila initiatives vil acala to'eses ohk valri. Rahehsila toyid sak ootay jos rahur vil incentives ar vulijet sustainable tlinses, buh acala toyid a'klaran sakei muchi to'eses vil tlotarskoran ootay tue canro'ohan. 
+            <br/>
+            Eti ohk arnian oharu ar tohsu'a systemic vil kslunsuli xairjan kue a jilji knyih. Ulmio toyid tlinses tlano'ika tae tohsu'a t'u v'enisa- muchi to'eses vil kumsaran acala cea a'klaran sustainable tlinses. 
+            `,
             'lestechno': '<b> Canro\'ohan cahsinark vla geo </b> ',
             'ilsuffit': ' Huhsi t\'irk va\'ni t\'irk ',
-            'Attention': '<b> Ayalk! </b> Go huhsi ei t\'irk eo, t\'irk a\'e\'iry aola arnian si\'kulehan. .',
+            'Attention': `
+            <b> Asark! </b> Vyirnih t'irk t'irk vil alb ohk a tobesec tlotahan toe ji sakea, eti ohk oharu ar nie cei tarhani vil a'cie ka jos ecosystem. Ji eko cea t'irk ei t'irk eo ohk tlocesi ohk a simplification cea toyid fic si'user kanya.
+            <br/>
+            T'irk jirkira kkata ohk kkateir mliyi. Jirkira t'irk ohk ceu cea oyo'u gisue ootay a boo raheora vil ohk a'cie ar jos vorkewa. Korjin juy a valri ror ootay ecological li'irtan, tloyeban deynakan, gusliga norsa vil vorslemuan ar biodiversity.
+            <br/>
+            Tenii a'e'iry aan eryihec kkata ohk ornorkunan, korjin toyid yihlaran ji jos ecosystem, eih aniha onhso jirkira kkata vil vlo ecological si'mi'iru. A'koo, va'ni a'e'iry t'irk sil laboo ersarheyi uba bo norsa ro cei veo oola vil cae gusliga, vea toyid fic gai clica kue ji sakea. 
+            <br/>
+            Eti ohk cei mliyi ar o'ank t'irk a'cie ka v'enisa vil jirkira ka raheora tenii t'irk. Reforestation vil ecological rakorau tlovank sohsa ohk myekan tae ecological ktan ar sinhenunehan tobesec sakea tlocesa. 
+            `,
             'plusdinfos': ' T\'u ercolna kue <a href="https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf"> ji IPCC fiyao ro </a>',
             'co2': 'CO2 ohk ji gue mid ar ceh ',
-            'methane': ' <b>Sasio ohk</b> cinhika kub kay vorslemuan mliry ar cusnory dilnehan. Eti ohk yap emitted tae calnu\'sue vil hydrocarbon tlokunk. Vyirnih jei lifespan ootay ji asnohcala ohk si\'ort, ji IPCC cinhika jei vorslemuan toc ersae 86 vil giyko canka mliry kukae bukas hie.',
+            'methane': `
+            <b> Koa, sasio vil </b> va'ni a'an dilnava gases arnian juy a kehreci ror ootay cusnory dilnehan. <br/> Sasio ohk ba eih cinhika kub, kay eti ohk a bue contributor ar cusnory dilnehan. Eti ohk emitted yap tae foh anseyau cei veo calnu'sue (cattle rid, rez fields) vil hydrocarbon tlokunk (oil vil mid exploitation). Vyirnih sasio fic a si'ort lifespan ir CO2, eti fic a su'si a'k dilnehan tosartamr kukae a si'ort taleoka bo canka. <br/> Ji IPCC cinhika cea, kukae a bukas- hie taleoka, ji cusnory dilnehan tosartamr (GWP) bo sasio ohk li'kiyi 86 ar giyko canka mliry ir cea bo CO2. Cea y kehrecan cea jei clica kue cusnory dilnehan ohk su'si t'u ohi ootay ji si'ort calnera. `,
             'peutpas': ' Toyid gan go o\'nak dilnava gases or ji asnohcala?',
-            'simais': ' Ka, Kay ji IPCC ceh e\'an n\'irs ocanseyet kue ji behkoreme\'eki vil ota bo oola, kue gusliga tlokunk vil kue biodiversity.  '
+            'simais': ` <b> Ka Kay </b> gue ootay caolan. Ji mliry- knyih implementation bo cei canro'ohan jac kaleobi vortalo yelniyo e'an n'irs ocanseyet. Ji IPCC (Intergovernmental Ornikliga kue V'enisa Change) vil a'an vonkasarsur ohk vortalo cea va'ni bo ji tlokoran sasoy toe o'nak dilnava gases toyud fic babelerki go kanya kue ji sakea. <br/>
+            Toe onbankr, va'ni canrena toe soc ro vilmora dioxide (CO2) or ji asnohcala, cei veo vilmora tlara vil ksonika (CCS), toyid laboo kehreci kuh bo oola, vea toyud fic clica kue oola behkoreme'eki vil ota. A'koo, ji sihec uba bo jirka toe ceu canro'ohan toyid vonklonek gusliga tlokunk vil biodiversity. <br/>
+            Ji tosartamr n'irs ocanseyet bo o'nak dilnava gases ra'eacehan ji laboo toe a li'irtan tlonhenes cea vonmeran rakunsirk emissions ho norsa bo a'ciliy tao vil sakei muchi ko'ya. Eti ohk valri ar tlekard ji tosartamr clica bo ei canro'ohan par ho soc ro dilnava gases ar sahak vlo t'an sakea tlom'ah buh ko'yan uru niz bo v'enisa xairjan`
         }
     };
 

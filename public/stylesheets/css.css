@@ -7,6 +7,10 @@ h3 {
 }
 p {color: rgb(0, 0, 0);}
 
+.center {
+  text-align: center;
+}
+
 /* Styles pour la page */
 .page-container {
   display: flex;

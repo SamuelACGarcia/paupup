@@ -4,11 +4,13 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                                           controllers.HomeController.index()
+GET     /                                                   controllers.HomeController.index()
 
-GET     /public/ThisisbetterthanHadouken/defi3.html        controllers.HomeController.defi3()
+GET     /public/ThisisbetterthanHadouken/defi3.html         controllers.HomeController.defi3()
 
-GET     /public/UneUIUXCauchemardesque/defi4.html   controllers.HomeController.defi4()
+GET     /public/UneUIUXCauchemardesque/defi4.html           controllers.HomeController.defi4()
+
+GET     /defi2                                              controllers.HomeController.defi2()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /public/*file               controllers.Assets.versioned(path="/public", file: Asset)

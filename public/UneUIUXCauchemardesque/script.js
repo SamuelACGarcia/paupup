@@ -5,7 +5,7 @@ function changeTheme() {
     const themes = [
         'style.css', // Thème par défaut
         'theme1.css', // Ajoute d'autres thèmes au besoin
-        'theme2.css',
+        'sw.css',
         'theme3.css',
         'theme4.css',
     ];
@@ -15,15 +15,23 @@ function changeTheme() {
     let isMouseDown = false;
     const gifContainer = document.getElementById("gifContainer");
 
-    if (randomTheme == 'style.css') {
+
+
         document.addEventListener("mousedown", changeCursor);
         document.addEventListener("mouseup", restoreCursor);
-        
+
         function changeCursor() {
             console.log("mousedown");
             isMouseDown = true;
-            gifContainer.classList.remove("hidden");
-            document.body.style.cursor = "url(\"img/licornclick.png\"), auto"; /* Image du curseur lors du mousedown */
+            
+            if (randomTheme == 'style.css') {
+                gifContainer.classList.remove("hidden");
+                document.body.style.cursor = "url(\"img/licornclick.png\"), auto"; /* Image du curseur lors du mousedown */
+            }
+            else if (randomTheme == 'sw.css') {
+                document.body.style.cursor = "url(\"img/lightsaber.png\"), auto"; /* Image du curseur lors du mousedown */
+            }
+            
             document.addEventListener("mousemove", moveGif);
 
 
@@ -32,11 +40,17 @@ function changeTheme() {
         function restoreCursor() {
             console.log("mouseup");
             isMouseDown = false;
-            gifContainer.classList.add("hidden");
-            document.body.style.cursor = "url(\"img/licorn1.png\"), auto"; /* Restaure le curseur par défaut après le mouseup */
+            
+            if (randomTheme == 'style.css') {
+                gifContainer.classList.add("hidden");
+                document.body.style.cursor = "url(\"img/licorn1.png\") 20 20, auto"; /* Restaure le curseur par défaut après le mouseup */
+            }
+            else if (randomTheme == 'sw.css') {
+                document.body.style.cursor = "url(\"img/bluesaber.png\") 20 20, auto"; /* Image du curseur lors du mousedown */
+            }
             document.removeEventListener("mousemove", moveGif);
         }
-    }
+    
 
     function moveGif(event) {
         if (isMouseDown) {

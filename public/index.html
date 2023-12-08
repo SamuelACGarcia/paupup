@@ -75,7 +75,9 @@
   }
 </script>
 
+<div class="center">
 <img src="./public/index_media/Arbre.png" alt="Image" id="Arbre" onclick="cerfVolant()"/>
+
 
 <div class="center">
   <h2 class="sommaire">Sommaire</h2>
@@ -316,6 +318,15 @@
   </ul>
 </footer>
 
+
+<script>
+  const langSelector = document.getElementById('langSelector');
+langSelector.addEventListener('change', () => {
+    console.log("a");
+    langSelector.style.top = '50px'; // Modifier la valeur en fonction de la nouvelle position désirée
+    langSelector.style.right = '50px'; // Modifier la valeur en fonction de la nouvelle position désirée
+});
+</script>
 </body>
 
 </html>

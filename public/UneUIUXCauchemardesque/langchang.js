@@ -138,6 +138,9 @@ function changerLanguage(langue) {
             éliminer les gaz à effet de serre pour éviter de créer d'autres problèmes environnementaux tout en résolvant 
             un aspect du changement climatique.`
         },
+
+        // traduit via http://starwars.myrpg.org/coruscant_translator.php , le seul site traduisant réellement les langues de Star Wars 
+        // les autres étant limité au niveau des choix voir faux
         'tk': {
             'summary': 'rahuh',
             'introlist': 'Ornorkuna',
@@ -214,3 +217,4 @@ function changerLanguage(langue) {
         }
     });
 }
+
